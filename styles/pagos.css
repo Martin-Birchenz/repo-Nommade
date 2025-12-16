@@ -1,0 +1,22 @@
+* {
+  font-family: "Source Serif 4", serif;
+}
+
+header,
+footer {
+  background-color: black;
+}
+
+nav .navbar-brand {
+  font-size: 70px;
+  color: #c9a83f;
+}
+
+nav .nav-link {
+  font-size: 20px;
+  color: #c9a83f;
+}
+
+nav ul {
+  gap: 20px;
+}

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nommade oficial</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="bg-negro">
+      <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container-fluid">
+          <!-- Logo y título -->
+          <a href="index.html" class="navbar-brand">
+            <img
+              src="./public/logo sin titulo.png"
+              alt="Logo Nommade"
+              width="150px"
+            />
+            NOMMADE
+          </a>
+
+          <!-- Botón para el despliegue del menu cuando el dispositivo baja su resolución -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--Menú de navegación expandido-->
+          <div class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a href="./pages/tienda.html" class="nav-link">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a href="./pages/nosotros.html" class="nav-link">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a href="./pages/compras.html" class="nav-link">Mis compras</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contenido de la página -->
+    <main class="container-fluid bg-negro">
+      <!-- Primera sección, filosofía, misión y más contenido -->
+      <section  >
+        <div class="container pt-5">
+          <div class="card bg-negro">
+            <div class="row  bg-negro text-dorado">
+              <div class="col-md-4">
+                <img
+                  src="./public/logo sin titulo.png"
+                  class="img-fluid "
+                  alt="Logo"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body ">
+                  <h3 class="card-title text-center">Nuestra filosofía y misión</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nostrum dolores error ducimus cupiditate temporibus
+                    accusantium assumenda nihil sit consectetur, dolore et a
+                    atque nesciunt eaque, minus neque! Voluptatem, ea. Ipsam.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Vero ratione eos sed dolore adipisci qui cumque magnam
+                    ducimus mollitia alias ut libero nisi, blanditiis natus
+                    corrupti illo officiis! Quisquam, quo. Lorem ipsum dolor,
+                    sit amet consectetur adipisicing elit. Sed eum accusantium
+                    eveniet. Harum accusantium dolore distinctio voluptas vitae
+                    tenetur a ex rem, nemo iste deleniti totam saepe eum
+                    sapiente. Maiores.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Segunda sección, productos -->
+      <section class="container mt-5 ">
+        <h1 class="text-center pb-3">Productos Nommade</h1>
+
+        <div class="row">
+          <div class="card text-dorado text-center bg-negro col-md-6 col-lg-3 ">
+            <img
+              src="./public/amargo-obrero.jpg"
+              alt="Amargo obrero"
+              class="card-img-top"
+            />
+            <div class="card-body ">
+              <h5 class="card-title ">Amargo obrero</h5>
+              <a href="./pages/compras.html" class="btn btn-warning "
+                >Agregar al carrito</a
+              >
+            </div>
+          </div>
+
+          <div class="card bg-negro text-center col-md-6 col-lg-3 ">
+            <img src="./public/fernet.jpg" alt="Fernet" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-dorado">Fernet</h5>
+              <a href="./pages/compras.html" class="btn btn-warning"
+                >Agregar al carrito</a
+              >
+            </div>
+          </div>
+
+          <div class="card bg-negro text-center col-md-6 col-lg-3 ">
+            <img src="./public/gancia.jpg" alt="Gancia" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-dorado">Gancia</h5>
+              <a href="./pages/compras.html" class="btn btn-warning"
+                >Agregar al carrito</a
+              >
+            </div>
+          </div>
+
+          <div class="card col-md-6 col-lg-3 m-auto bg-negro">
+            <a href="./pages/tienda.html" class="btn btn-warning"
+              >Ver más productos...</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h1 class="text-center pt-5">Promociones Nommade</h1>
+        <div class="row">
+          <div class="card bg-negro col-sm-12 ">
+            
+            <div class="card-body text-center mt-5 mb-5">
+              <img src="./public/logo 2.jpg" width="300px"  alt="Promos">
+            </div>
+            <div class="col-sm-12 text-center mt-5 mb-5">
+              <a href="" class="btn btn-warning ">Ver las promos Nommade</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tercera sección, novedades de Nommade -->
+      <section class="container mt-5">
+        <h1 class="text-center">Novedades</h1>
+
+        <div class="row ">
+          <div class="card col-lg-4 bg-negro">
+            <img class="card-img-top" src="./public/default.webp" alt="" />
+            <div class="card-body">
+              <h2 class="card-title text-dorado text-center">Novedad 1</h2>
+            </div>
+          </div>
+
+          <div class="card col-lg-4 bg-negro">
+            <img class="card-img-top" src="./public/default.webp" alt="" />
+            <div class="card-body">
+              <h2 class="card-title text-dorado text-center">Novedad 2</h2>
+            </div>
+          </div>
+
+          <div class="card col-lg-4 bg-negro">
+            <img class="card-img-top" src="./public/default.webp" alt="" />
+            <div class="card-body">
+              <h2 class="card-title text-dorado text-center">Novedad 3</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cuarta sección, formulario para que el cliente envíe su consulta -->
+      <section class="container mt-5 bg-negro">
+        <h1 class="text-center">
+          Contáctanos, te responderemos a la brevedad.
+        </h1>
+        <div>
+          <form>
+            <label class="form-label" for="name">Nombre y apellido:</label>
+            <input class="form-control" id="name" type="text" />
+            <label class="form-label" for="email">Correo electrónico:</label>
+            <input class="form-control" id="email" type="email" />
+            <label class="form-label" for="number">Número de teléfono:</label>
+            <input class="form-control" id="number" type="number" />
+            <label class="form-label" for="consulta"
+              >Describe tu consulta:</label
+            >
+            <input class="form-control" id="consulta" type="text" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Por último, el pie de página -->
+    <footer class="container-fluid bg-negro">
+      <div class="row">
+        <div class="col-sm-12 text-center my-5">
+          <img src="./public/logo.jpg" alt="Logo" width="200px" />
+        </div>
+
+        <div class="col-lg-4 text-center">
+          <h1>Contactos</h1>
+        </div>
+
+        <div class="col-lg-4 text-center">
+          <h1>Políticas y privacidad</h1>
+        </div>
+
+        <div class="col-lg-4 text-center">
+          <h1>Donde nos encontramos</h1>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script de Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="..."
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

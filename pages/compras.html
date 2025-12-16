@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nommade oficial</title>
+    <link rel="stylesheet" href="../styles/compras.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container-fluid">
+          <!-- Logo y título -->
+          <a href="../index.html" class="navbar-brand">
+            <img
+              src="../public/logo sin titulo.png"
+              alt="Logo Nommade"
+              width="150px"
+            />
+            NOMMADE
+          </a>
+
+          <!-- Botón para el despliegue del menu cuando el dispositivo baja su resolución -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--Menú de navegación expandido-->
+          <div class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="../index.html" class="nav-link">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a href="./tienda.html" class="nav-link">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a href="./nosotros.html" class="nav-link">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a href="./compras.html" class="nav-link">Mis compras</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contenido de la página -->
+    <main class="py-5 bg-negro">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Nombre del producto</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Total</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">Nombre del producto</td>
+            <td>Cantidad</td>
+            <td>Precio</td>
+            <td>Total</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td scope="row">Nombre del producto</td>
+            <td>Cantidad</td>
+            <td>Precio</td>
+            <td>Total</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td scope="row">Nombre del producto</td>
+            <td>Cantidad</td>
+            <td>Precio</td>
+            <td>Total</td>
+            <td>Total</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="text-center">
+        <a href="../pages/pagos.html" class="btn btn-warning">Pagar</a>
+      </div>
+    </main>
+
+    <!-- Por último, el pie de página -->
+    <footer class="container-fluid bg-negro">
+      <div class="row">
+        <div class="col-sm-12 text-center my-5">
+          <img src="../public/logo.jpg" alt="Logo" width="200px" />
+        </div>
+
+        <div class="col-lg-4 text-center text-dorado">
+          <h1>Contactos</h1>
+        </div>
+
+        <div class="col-lg-4 text-center text-dorado">
+          <h1>Políticas y privacidad</h1>
+        </div>
+
+        <div class="col-lg-4 text-center text-dorado">
+          <h1>Donde nos encontramos</h1>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script de Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="..."
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
