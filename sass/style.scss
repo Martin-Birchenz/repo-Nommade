@@ -1,0 +1,85 @@
+$black-color: black;
+$hover-color: rgb(158, 164, 178);
+$gold-color: #c9a83f;
+$font-main: "Source Serif 4", serif;
+
+@mixin hover-effect {
+  color: $hover-color;
+  transition: 0.2s ease;
+}
+
+body {
+  font-family: $font-main;
+  header {
+    color: $gold-color;
+    background-color: $black-color;
+    border-bottom: 2px solid $gold-color;
+    nav {
+      .navbar-brand {
+        color: $gold-color;
+
+        &:hover {
+          @include hover-effect;
+        }
+
+        @media (min-width: 768px) {
+          font-size: 50px;
+        }
+        @media (min-width: 992px) {
+          font-size: 70px;
+        }
+      }
+
+      ul {
+        gap: 20px;
+        .nav-link {
+          font-size: 20px;
+          color: $gold-color;
+          &:hover {
+            @include hover-effect;
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    color: $gold-color;
+    background-color: $black-color;
+    padding-bottom: 30px;
+    table .thead-th {
+      background-color: $gold-color;
+    }
+    .btn-warning:hover {
+      background-color: $hover-color;
+      transition: 0.2s ease;
+      border-color: $hover-color;
+    }
+
+    section {
+      border-bottom: 2px solid $gold-color;
+      padding-bottom: 30px;
+
+      label {
+        font-size: 25px;
+      }
+    }
+
+    .card {
+      color: $gold-color;
+      background-color: $black-color;
+    }
+  }
+
+  footer {
+    color: $gold-color;
+    background-color: $black-color;
+    border-top: 2px solid $gold-color;
+    padding-top: 20px;
+    div {
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+}

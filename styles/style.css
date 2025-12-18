@@ -1,77 +1,71 @@
-* {
+body {
   font-family: "Source Serif 4", serif;
 }
-
-main section {
-  border-bottom: 2px solid #c9a83f;
-  padding-bottom: 30px;
-}
-
-main {
-  padding-bottom: 30px;
-}
-
-footer {
-  border-top: 2px solid #c9a83f;
-  padding-top: 20px;
-}
-
-header {
+body header {
+  color: #c9a83f;
+  background-color: black;
   border-bottom: 2px solid #c9a83f;
 }
-
-nav .navbar-brand:hover {
-  color: rgb(158, 164, 178);
-  transition: 0.2s ease;
-}
-
-nav .nav-link:hover {
-  color: rgb(158, 164, 178);
-  transition: 0.2s ease;
-}
-
-nav .navbar-brand {
-  font-size: 20px;
+body header nav .navbar-brand {
   color: #c9a83f;
 }
-
+body header nav .navbar-brand:hover {
+  color: rgb(158, 164, 178);
+  transition: 0.2s ease;
+}
 @media (min-width: 768px) {
-  nav .navbar-brand {
+  body header nav .navbar-brand {
     font-size: 50px;
-    color: #c9a83f;
   }
 }
-
 @media (min-width: 992px) {
-  nav .navbar-brand {
+  body header nav .navbar-brand {
     font-size: 70px;
-    color: #c9a83f;
   }
 }
-
-nav .nav-link {
-  font-size: 20px;
-  color: #c9a83f;
-}
-
-nav ul {
+body header nav ul {
   gap: 20px;
 }
-
-form label {
-  font-size: 25px;
+body header nav ul .nav-link {
+  font-size: 20px;
+  color: #c9a83f;
 }
-
-footer div h1 {
-  font-size: 30px;
+body header nav ul .nav-link:hover {
+  color: rgb(158, 164, 178);
+  transition: 0.2s ease;
 }
-
-main .btn-warning:hover {
+body main {
+  color: #c9a83f;
+  background-color: black;
+  padding-bottom: 30px;
+}
+body main table .thead-th {
+  background-color: #c9a83f;
+}
+body main .btn-warning:hover {
   background-color: rgb(158, 164, 178);
   transition: 0.2s ease;
   border-color: rgb(158, 164, 178);
 }
-
-.table .thead-th {
-  background-color: #c9a83f;
+body main section {
+  border-bottom: 2px solid #c9a83f;
+  padding-bottom: 30px;
 }
+body main section label {
+  font-size: 25px;
+}
+body main .card {
+  color: #c9a83f;
+  background-color: black;
+}
+body footer {
+  color: #c9a83f;
+  background-color: black;
+  border-top: 2px solid #c9a83f;
+  padding-top: 20px;
+}
+body footer div h1 {
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
